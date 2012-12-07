@@ -1,0 +1,74 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="User Name:"
+            android:textColor="#00FF00" />
+
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" 
+            android:textColor="#00FF00"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" >
+       
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Password" 
+            android:textColor="#00FF00"/>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="fill_parent"
+            android:inputType="textPassword"
+            android:textColor="#00FF00" />
+
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView/>
+        <CheckBox 
+            android:id="@+id/chkPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember Password"
+            android:textColor="#00FF00"
+            />
+    </TableRow>
+
+     <TableRow
+         android:id="@+id/tableRow4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+         <Button
+             android:id="@+id/ButtonLog"
+             android:text="Log In" 
+             android:textColor="#00FF00"/>
+     </TableRow>
+
+</TableLayout>
